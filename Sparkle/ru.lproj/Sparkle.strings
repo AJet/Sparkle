@@ -1,30 +1,34 @@
-"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ загружен и готов к использованию! Хотите установить и перезапустить %1$@?";
+﻿"%1$@ %2$@ has been downloaded and is ready to use! This is an important update; would you like to install it and relaunch %1$@ now?" = "Обновление %1$@ %2$@ загружено и готово к использованию! Это важное обновление; установить обновление и перезапустить %1$@?";
 
-"%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "Во время работы %1$@ с тома, предназначенного только для чтения, как например, образа диска или накопителя на оптических дисках, его невозможно обновить. Переместите %1$@ в Папку приложений, перезапустите его оттуда и повторите попытку.";
+"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "Обновление %1$@ %2$@ загружено и готово к использованию! Установить обновление и перезапустить %1$@?";
 
-"%@ %@ is currently the newest version available." = "В настоящий момент %1$@ %2$@ является новейшей версией.";
+"%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "%1$@ нельзя обновлять, пока он запущен с диска, доступного только для чтения. Переместите %1$@ в папку Программы и перезапустите.";
 
-"%@ %@ is now available--you have %@. Would you like to download it now?" = "%1$@ %2$@ теперь доступен – вы имеете %3$@. Хотите загрузить его сейчас?";
+"%@ %@ is currently the newest version available." = "У вас уже установлена последняя версия %@ %@.";
 
-"%@ downloaded" = "%@ загружено";
+"%@ %@ is now available--you have %@. Would you like to download it now?" = "Доступно обновление %@ до версии %@, у вас сейчас установлена версия %@. Загрузить обновление?";
 
-"%@ of %@" = "%1$@ из %2$@";
+"%@ downloaded" = "загружено %@";
 
-"A new version of %@ is available!" = "Имеется новая версия %@!";
+"%@ of %@" = "%@ из %@";
 
-"A new version of %@ is ready to install!" = "Новая версия %@ готова к установке!";
+"A new version of %@ is available!" = "Доступно обновление %@!";
 
-"An error occurred in retrieving update information. Please try again later." = "Произошла ошибка при извлечении информации обновления. Повторите попытку позже.";
+"A new version of %@ is ready to install!" = "Обновление %@ готово к установке!";
 
-"An error occurred while downloading the update. Please try again later." = "Произошла ошибка при загрузке обновления. Повторите попытку позже.";
+"An error occurred in retrieving update information. Please try again later." = "Не удалось получить информацию об обновлении. Повторите попытку позже.";
 
-"An error occurred while extracting the archive. Please try again later." = "Произошла ошибка при извлечении архива. Повторите попытку позже.";
+"An error occurred while downloading the update. Please try again later." = "Не удалось загрузить обновление. Повторите попытку позже.";
 
-"An error occurred while installing the update. Please try again later." = "Произошла ошибка при установке обновления. Повторите попытку позже.";
+"An error occurred while extracting the archive. Please try again later." = "Не удалось извлечь архив. Повторите попытку позже.";
 
-"An error occurred while parsing the update feed." = "Ошибка произошла при извлечении канала обновления.";
+"An error occurred while installing the update. Please try again later." = "Не удалось установить обновление. Повторите попытку позже.";
 
-"An error occurred while relaunching %1$@, but the new version will be available next time you run %1$@." = "Произошла ошибка при перезапуске %1$@, но при последующем запуске %1$@ будет доступна новая версия.";
+"An error occurred while parsing the update feed." = "Произошла ошибка обработки ленты обновлений.";
+
+"An error occurred while relaunching %1$@, but the new version will be available next time you run %1$@." = "При перезапуске %1$@ произошла ошибка, новая версия будет доступна при следующем запуске %1$@.";
+
+"An important update to %@ is ready to install" = "Важное обновление %@ готово к установке!";
 
 /* the unit for bytes */
 "B" = "Б";
@@ -33,13 +37,13 @@
 
 "Cancel Update" = "Отменить обновление";
 
-"Checking for updates..." = "Проверяю наличие обновлений…";
+"Checking for updates..." = "Поиск обновлений…";
 
 /* Take care not to overflow the status window. */
-"Downloading update..." = "Загружаю обновление…";
+"Downloading update..." = "Загрузка обновления…";
 
 /* Take care not to overflow the status window. */
-"Extracting update..." = "Извлекаю обновление…";
+"Extracting update..." = "Распаковка обновления…";
 
 /* the unit for gigabytes */
 "GB" = "ГБ";
@@ -47,29 +51,35 @@
 "Install and Relaunch" = "Установить и перезапустить";
 
 /* Take care not to overflow the status window. */
-"Installing update..." = "Устанавливаю обновление…";
+"Installing update..." = "Установка обновления…";
 
 /* the unit for kilobytes */
 "KB" = "КБ";
 
+/* Alternative name for "Install" button if we have a paid update or other update 	without a download but with a URL. */
+"Learn More..." = "Подробности…";
+
 /* the unit for megabytes */
 "MB" = "МБ";
 
+/* OK button. */
 "OK" = "OK";
 
+/* Status message on progress window once download has finished. */
 "Ready to Install" = "Готов к установке";
 
-"Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu." = "Должен ли %1$@ выполнять автоматическую проверку обновлений? Вы всегда можете выполнять проверку обновлений вручную в меню %1$@.";
+/* Message that is optionally shown at startup to allow users to turn on/off update checks. */
+"Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu." = "Искать обновления %1$@ автоматически? Вы всегда можете проверить наличие обновлений из меню %1$@.";
 
-"Update Error!" = "Ошибка при обновлении!";
+"The update is improperly signed." = "Цифровая подпись обновления повреждена.";
 
-"Updating %@" = "Обновляю %@";
+"Update Error!" = "Ошибка обновления!";
 
-"You already have the newest version of %@." = "Вы уже имеете самую новую версию %@.";
+"Updating %@" = "Обновление %@";
 
-"You're up-to-date!" = "У вас все обновлено!";
+/* 'Error' message when the user checks for updates but is already current or the feed doesn't contain any updates. (not necessarily shown in UI) */
+"You already have the newest version of %@." = "У вас уже установлена последняя версия %@.";
 
-/* Alternative name for "Install" button if we have a paid update or other update
-	without a download but with a URL. */
+/* Status message shown when the user checks for updates but is already current or the feed doesn't contain any updates. */
+"You're up-to-date!" = "Обновление не требуется";
 
-"Learn More..." = "Узнать больше…";
