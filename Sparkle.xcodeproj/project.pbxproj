@@ -1275,7 +1275,7 @@
 			attributes = {
 				CLASSPREFIX = SU;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Sparkle Project";
 				TargetAttributes = {
 					612279D80DB5470200AB99EA = {
@@ -1524,7 +1524,6 @@
 				142E0E0919A83AAC00E4312B /* SUBinaryDeltaTest.m in Sources */,
 				F8761EB11ADC5068000C9034 /* SUCodeSigningVerifierTest.m in Sources */,
 				5AF9DC3C1981DBEE001EA135 /* SUDSAVerifierTest.m in Sources */,
-				72A4A2411BB656FA00E7820D /* SUFileManager.m in Sources */,
 				72A4A2401BB6567D00E7820D /* SUFileManagerTest.swift in Sources */,
 				5AF6C7541AEA49840014A3AB /* SUInstallerTest.m in Sources */,
 				14652F8219A9746000959E44 /* SULog.m in Sources */,
