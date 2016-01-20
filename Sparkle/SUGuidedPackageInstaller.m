@@ -72,9 +72,9 @@ static BOOL AuthorizationExecuteWithPrivilegesAndWait(AuthorizationRef authoriza
 		validAuth = AuthorizationCopyRights(auth,
 											&rights,
 											kAuthorizationEmptyEnvironment,
-											kAuthorizationFlagPreAuthorize |
+											(AuthorizationFlags)(kAuthorizationFlagPreAuthorize |
 											kAuthorizationFlagExtendRights |
-											kAuthorizationFlagInteractionAllowed,
+											kAuthorizationFlagInteractionAllowed),
 											NULL);
 		if (validAuth != errAuthorizationSuccess)
 		{

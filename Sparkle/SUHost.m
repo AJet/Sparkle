@@ -160,7 +160,9 @@
     if (!icon) {
         BOOL isMainBundle = (self.bundle == [NSBundle mainBundle]);
 
-        NSString *fileType = isMainBundle ? (NSString *)kUTTypeApplication : (NSString *)kUTTypeBundle;
+        const CFStringRef cfileType = isMainBundle ? kUTTypeApplication : kUTTypeBundle;
+        NSString *fileType = (__bridge NSString*)cfileType;
+
         icon = [[NSWorkspace sharedWorkspace] iconForFileType:fileType];
     }
     return icon;
