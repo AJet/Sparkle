@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
-        <development version="5100" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9060"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="SUUpdatePermissionPrompt">
@@ -20,16 +19,17 @@
         <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="5" userLabel="Profile Info">
             <windowStyleMask key="styleMask" titled="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="83" y="492" width="491" height="168"/>
+            <rect key="contentRect" x="83" y="492" width="438" height="185"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
             <value key="minSize" type="size" width="213" height="107"/>
             <view key="contentView" id="6">
-                <rect key="frame" x="0.0" y="0.0" width="491" height="168"/>
+                <rect key="frame" x="0.0" y="0.0" width="438" height="185"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button verticalHuggingPriority="750" tag="1" id="13">
-                        <rect key="frame" x="269" y="12" width="208" height="32"/>
+                        <rect key="frame" x="216" y="12" width="208" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                        <animations/>
                         <buttonCell key="cell" type="push" title="Проверять автоматически" bezelStyle="rounded" alignment="center" state="on" borderStyle="border" tag="1" inset="2" id="176">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -41,18 +41,35 @@ DQ
                             <action selector="finishPrompt:" target="-2" id="144"/>
                         </connections>
                     </button>
+                    <button verticalHuggingPriority="750" id="14">
+                        <rect key="frame" x="89" y="12" width="127" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                        <animations/>
+                        <buttonCell key="cell" type="push" title="Не проверять" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="177">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="finishPrompt:" target="-2" id="145"/>
+                        </connections>
+                    </button>
                     <textField verticalHuggingPriority="750" id="32">
-                        <rect key="frame" x="104" y="114" width="369" height="34"/>
+                        <rect key="frame" x="104" y="131" width="316" height="34"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Проверять наличие обновлений автоматически?" id="178">
+                        <animations/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Выполнять автоматическую проверку наличия обновлений?" id="178">
                             <font key="font" metaFont="systemBold"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" id="33">
-                        <rect key="frame" x="104" y="81" width="369" height="42"/>
+                        <rect key="frame" x="104" y="81" width="315" height="42"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <animations/>
                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="DO NOT LOCALIZE" id="179">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -63,9 +80,10 @@ DQ
                         </connections>
                     </textField>
                     <button focusRingType="none" id="34">
-                        <rect key="frame" x="104" y="53" width="369" height="18"/>
+                        <rect key="frame" x="104" y="53" width="278" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="check" title="Включать анонимный отчет о системе" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" state="on" focusRingType="none" inset="2" id="180">
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Включить анонимный профиль системы" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" state="on" focusRingType="none" inset="2" id="180">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                             <font key="font" metaFont="smallSystem"/>
                         </buttonCell>
@@ -84,16 +102,18 @@ DQ
                         </connections>
                     </button>
                     <imageView id="37">
-                        <rect key="frame" x="23" y="84" width="64" height="64"/>
+                        <rect key="frame" x="23" y="101" width="64" height="64"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        <animations/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="axesIndependently" image="NSApplicationIcon" id="181"/>
                         <connections>
                             <binding destination="-2" name="value" keyPath="icon" id="130"/>
                         </connections>
                     </imageView>
                     <button focusRingType="none" horizontalHuggingPriority="750" verticalHuggingPriority="750" id="71">
-                        <rect key="frame" x="80" y="50" width="27" height="26"/>
+                        <rect key="frame" x="80" y="67" width="27" height="26"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                        <animations/>
                         <buttonCell key="cell" type="disclosureTriangle" bezelStyle="disclosure" imagePosition="overlaps" alignment="center" borderStyle="border" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="182">
                             <behavior key="behavior" pushIn="YES" changeBackground="YES" changeGray="YES" lightByContents="YES"/>
                             <font key="font" metaFont="system"/>
@@ -107,23 +127,10 @@ DQ
                             </binding>
                         </connections>
                     </button>
-                    <button verticalHuggingPriority="750" id="14">
-                        <rect key="frame" x="142" y="12" width="127" height="32"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
-                        <buttonCell key="cell" type="push" title="Не проверять" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="177">
-                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
-                            <string key="keyEquivalent" base64-UTF8="YES">
-Gw
-</string>
-                        </buttonCell>
-                        <connections>
-                            <action selector="finishPrompt:" target="-2" id="145"/>
-                        </connections>
-                    </button>
                 </subviews>
+                <animations/>
             </view>
-            <point key="canvasLocation" x="616.5" y="480"/>
+            <point key="canvasLocation" x="344" y="304"/>
         </window>
         <arrayController editable="NO" preservesSelection="NO" selectsInsertedObjects="NO" avoidsEmptySelection="NO" id="24" userLabel="Array Controller">
             <declaredKeys>
@@ -143,11 +150,12 @@ Gw
                 <textField verticalHuggingPriority="750" id="46">
                     <rect key="frame" x="1" y="128" width="358" height="70"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <animations/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="183">
                         <font key="font" metaFont="smallSystem"/>
-                        <string key="title">Информация из отчета ипользуется для планирования дальнейших разработок. Свяжитесь с нами, если у вас есть какие-либо вопросы по данному поводу.
+                        <string key="title">Использование анонимного профиля системы помогает нам в планировании будущей работы по разработке. Если у вас есть какие-либо вопросы по этой теме, обращайтесь к нам.
 
-Что будет отправлено:</string>
+Это информация, предназначенная для отправления:</string>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
@@ -157,11 +165,12 @@ Gw
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <clipView key="contentView" id="sbp-rk-wxX">
                         <rect key="frame" x="1" y="1" width="353" height="113"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" multipleSelection="NO" autosaveColumns="NO" typeSelect="NO" rowHeight="14" id="41">
                                 <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
                                 <autoresizingMask key="autoresizingMask"/>
+                                <animations/>
                                 <size key="intercellSpacing" width="3" height="2"/>
                                 <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
@@ -172,7 +181,7 @@ Gw
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                         </tableHeaderCell>
-                                        <textFieldCell key="dataCell" controlSize="small" selectable="YES" alignment="left" id="43">
+                                        <textFieldCell key="dataCell" controlSize="small" selectable="YES" alignment="left" title="Text Cell" id="43">
                                             <font key="font" metaFont="smallSystem"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -188,7 +197,7 @@ Gw
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
                                         </tableHeaderCell>
-                                        <textFieldCell key="dataCell" controlSize="small" selectable="YES" alignment="left" id="45">
+                                        <textFieldCell key="dataCell" controlSize="small" selectable="YES" alignment="left" title="Text Cell" id="45">
                                             <font key="font" metaFont="smallSystem"/>
                                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -201,19 +210,23 @@ Gw
                                 </tableColumns>
                             </tableView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </clipView>
+                    <animations/>
                     <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="YES" id="185">
                         <rect key="frame" x="-100" y="-100" width="345" height="11"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </scroller>
                     <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" controlSize="small" horizontal="NO" id="184">
                         <rect key="frame" x="-22" y="1" width="11" height="125"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </scroller>
                 </scrollView>
             </subviews>
-            <point key="canvasLocation" x="681" y="718.5"/>
+            <animations/>
         </customView>
         <userDefaultsController id="49" userLabel="User Defaults Controller">
             <declaredKeys>
