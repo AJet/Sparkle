@@ -108,11 +108,6 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self name:NSApplicationDidBecomeActiveNotification object:NSApp];
 }
 
-- (void)appcastDidFinishLoading:(SUAppcast *)__unused ac
-{
-    // do nothing
-}
-
 - (void)updateAlertFinishedWithChoice:(SUUpdateAlertChoice)choice
 {
     self.updateAlert = nil;
