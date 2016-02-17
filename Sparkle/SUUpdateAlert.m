@@ -16,6 +16,7 @@
 #import <WebKit/WebKit.h>
 
 #import "SUConstants.h"
+#import "SULog.h"
 
 // WebKit protocols are not explicitly declared until 10.11 SDK, so
 // declare dummy protocols to keep the build working on earlier SDKs.
@@ -255,8 +256,18 @@
 
 - (void)webView:(WebView *)__unused sender decidePolicyForNavigationAction:(NSDictionary *)__unused actionInformation request:(NSURLRequest *)request frame:(WebFrame *)__unused frame decisionListener:(id<WebPolicyDecisionListener>)listener
 {
+    NSURL *requestURL = request.URL;
+    NSString *scheme = requestURL.scheme;
+    BOOL whitelistedSafe = [@"http" isEqualToString:scheme] || [@"https" isEqualToString:scheme] || [@"about:blank" isEqualToString:requestURL.absoluteString];
+
+    // Do not allow redirects to dangerous protocols such as file://
+    if (!whitelistedSafe) {
+        SULog(@"Blocked display of %@ URL which may be dangerous", scheme);
+        [listener ignore];
+        return;
+    }
+
     if (self.webViewFinishedLoading) {
-        NSURL *requestURL = request.URL;
         if (requestURL) {
             [[NSWorkspace sharedWorkspace] openURL:requestURL];
         }
