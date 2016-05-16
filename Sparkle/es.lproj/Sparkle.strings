@@ -1,79 +1,89 @@
-"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ se han descargado y están listos para utilizar. ¿Le gustaría instalar e iniciar %1$@ ahora?";
+﻿"%1$@ %2$@ has been downloaded and is ready to use! This is an important update; would you like to install it and relaunch %1$@ now?" = "¡%1$@ %2$@ ha sido descargada y está lista para usar! Esta es una actualización importante; ¿te gustaría instalarla y relanzar %1$@ ahora?";
 
-"%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "%1$@ no se puede actualizar cuando se ejecuta desde un volumen de sólo lectura como imagen de disco o medio óptico. Mueva %1$@ a su carpeta de Aplicaciones y trate de iniciarlo desde allí.";
+"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "¿%1$@ %2$@ ha sido descargada y está lista para usar! ¿Te gustaría instalarla y relanzar %1$@ ahora?";
 
-"%@ %@ is currently the newest version available." = "%1$@ %2$@ es la última versión disponible.";
+"%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "%1$@ no se puede actualizar cuando se está ejecutando desde un volumen de sólo leer como una imagende disco o un drie óptico. Mueve %1$@ a tu carpeta de Aplicaciones, relánzala desde ahí, y prueba de nuevo.";
+
+"%@ %@ is currently the newest version available." = "%@ %@ es actualmente la versión disponible más reciente.";
 
 /* Description text for SUUpdateAlert when the update is downloadable. */
-"%@ %@ is now available--you have %@. Would you like to download it now?" = "%1$@ %2$@ está disponible (usted tiene la %3$@). ¿Desea descargarla ahora?";
+"%@ %@ is now available--you have %@. Would you like to download it now?" = "%@ %@ ya está disponible--tienes %@. ¿Te gustaría descargarla ahora?";
 
 /* Description text for SUUpdateAlert when the update informational with no download. */
-"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%1$@ %2$@ is now available--you have %3$@. Would you like to learn more about this update on the web?";
+"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%@ %@ ya está disponible--tienes %@. ¿Te gustaría saber más sobre esta actualización en la web?";
 
-"%@ downloaded" = "%@ descargado";
+"%@ downloaded" = "%@ descargada";
 
-"%@ of %@" = "%1$@ de %2$@";
+"%@ of %@" = "%@ de %@";
 
-"A new version of %@ is available!" = "¡Hay una nueva versión de %@ !";
+"A new version of %@ is available!" = "¡Una nueva versión de %@ está disponible!";
 
-"A new version of %@ is ready to install!" = "¡Una versión nueva de %@ está lista para instalar!";
+"A new version of %@ is ready to install!" = "¡Una nueva versión de %@ está lista para instalar!";
 
-"An error occurred in retrieving update information. Please try again later." = "Ocurrió un error al recopilar información sobre la actualización. Por favor, inténtelo de nuevo más tarde.";
+"An error occurred in retrieving update information. Please try again later." = "Ocurrió un error al recuperar la información de la actualización. Por favor, prueba de nuevo más tarde.";
 
-"An error occurred while downloading the update. Please try again later." = "Ocurrió un error mientras se descargaba la actualización. Por favor intente de nuevo más tarde.";
+"An error occurred while downloading the update. Please try again later." = "Ocurrió un error al descargar la actualización. Por favor, prueba de nuevo más tarde.";
 
-"An error occurred while extracting the archive. Please try again later." = "Ocurrió un error al extraer el archivo. Por favor, inténtelo de nuevo más tarde.";
+"An error occurred while extracting the archive. Please try again later." = "Ocurrió un error al extraer el archivo. Por favor, prueba de nuevo más tarde.";
 
-"An error occurred while installing the update. Please try again later." = "Ocurrió un error mientras se instalaba la actualización. Por favor intente de nuevo más tarde.";
+"An error occurred while installing the update. Please try again later." = "Ocurrió un error al instalar la actualización. Por favor, prueba de nuevo más tarde.";
 
-"An error occurred while parsing the update feed." = "Ocurrió un error mientras se analizaba la entrada de la actualización.";
+"An error occurred while parsing the update feed." = "Ocurrió un error al analizar el suministro de la actualización.";
 
-"An error occurred while relaunching %1$@, but the new version will be available next time you run %1$@." = "Ocurrió un error mientras se re-iniciaba %1$@, pero la nueva versión estará disponible la próxima vez que ejecute %1$@.";
+"An error occurred while relaunching %1$@, but the new version will be available next time you run %1$@." = "Ocurrió un error mientras se relanzaba %1$@, pero la nueva versión estará disponible la próxima vez que ejecutes %1$@.";
+
+"An important update to %@ is ready to install" = "Una actualización importante para %@ está lista para instalar";
 
 /* the unit for bytes */
-"B" = "O";
+"B" = "B";
 
 "Cancel" = "Cancelar";
 
-"Cancel Update" = "Cancelar actualización";
+"Cancel Update" = "Cancelar Actualización";
 
-"Checking for updates..." = "Buscando actualizaciones …";
+"Checking for updates..." = "Comprobando actualizaciones…";
 
 /* Take care not to overflow the status window. */
-"Downloading update..." = "Descargando actualización…";
+"Downloading update..." = "Descargando actualizaciones…";
 
 /* Take care not to overflow the status window. */
 "Extracting update..." = "Extrayendo actualización…";
 
 /* the unit for gigabytes */
-"GB" = "GO";
+"GB" = "GB";
 
-"Install and Relaunch" = "Instalar y volver a arrancar";
+"Install and Relaunch" = "Instalar y Relanzar";
 
 /* Take care not to overflow the status window. */
 "Installing update..." = "Instalando actualización…";
 
 /* the unit for kilobytes */
-"KB" = "KO";
+"KB" = "KB";
+
+/* Alternative name for "Install" button if we have a paid update or other update 	without a download but with a URL. */
+"Learn More..." = "Saber más…";
 
 /* the unit for megabytes */
 "MB" = "MB";
 
+/* OK button. */
 "OK" = "OK";
 
-"Ready to Install" = "Preparado para instalar";
+/* Status message on progress window once download has finished. */
+"Ready to Install" = "Listo para Instalar";
 
-"Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu." = "¿Debería automáticamente %1$@ buscar las actualizaciones? Puede hacerlo también manualmente desde el menú %1$@.";
+/* Message that is optionally shown at startup to allow users to turn on/off update checks. */
+"Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu." = "¿Debería %1$@ comprobar automáticamente las actualizaciones? Siempre puedes comprobar las actualizaciones manualmente desde el menú %1$@.";
 
-"Update Error!" = "¡Error de actualización!";
+"The update is improperly signed." = "La actualización está firmada incorrectamente.";
+
+"Update Error!" = "¡Error de Actualización!";
 
 "Updating %@" = "Actualizando %@";
 
-"You already have the newest version of %@." = "Ya tiene la versión más reciente de %@.";
+/* 'Error' message when the user checks for updates but is already current or the feed doesn't contain any updates. (not necessarily shown in UI) */
+"You already have the newest version of %@." = "Ya tienes la versión más reciente de %@.";
 
-"You're up-to-date!" = "Ya tiene la versión más reciente";
+/* Status message shown when the user checks for updates but is already current or the feed doesn't contain any updates. */
+"You're up-to-date!" = "¡Estás al día!";
 
-/* Alternative name for "Install" button if we have a paid update or other update
-	without a download but with a URL. */
-
-"Learn More..." = "Más información…";
