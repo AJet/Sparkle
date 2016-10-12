@@ -1,33 +1,38 @@
-"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ 已下载完毕并可以使用！您想要现在安装 %1$@ 吗？";
+﻿"%1$@ %2$@ has been downloaded and is ready to use! This is an important update; would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@的下载已完成!这是一次重要更新;您是否要现在安装并重启%1$@?";
 
-"%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "无法更新 %1$@，因为它运行于一个只读宗卷如磁盘映像或光盘。移动 %1$@ 到应用程序文件夹并再试一次。";
+"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@的下载已完成!您是否要现在安装并重启%1$@?";
 
-"%@ %@ is currently the newest version available." = "%1$@ %2$@ 是当前的最新版本。";
+"%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "%1$@运行在只读宗卷如磁盘映像或光驱中,无法更新.移动%1$@至您的「应用」文件夹,重启后再尝试更新.";
 
-"%@ %@ is now available--you have %@. Would you like to download it now?" = "%1$@ %2$@ 可供下载，您现在的版本是 %3$@。要现在下载吗？";
+"%@ %@ is currently the newest version available." = "%@ %@已是当前可用的最新版本.";
+
+/* Description text for SUUpdateAlert when the update is downloadable. */
+"%@ %@ is now available--you have %@. Would you like to download it now?" = "%@ %@是当前可用的最新版本--您使用的是%@.是否现在为您下载最新版本?";
 
 /* Description text for SUUpdateAlert when the update informational with no download. */
-"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%1$@ %2$@ is now available--you have %3$@. Would you like to learn more about this update on the web?";
+"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%@ %@是当前可用的最新版本--您使用的是%@.您是否要前往官网查看有关该更新的更多信息?";
 
-"%@ downloaded" = "%@ 已下载";
+"%@ downloaded" = "已下载%@";
 
-"%@ of %@" = "%1$@ / %2$@";
+"%@ of %@" = "已下载%@,全部%@";
 
-"A new version of %@ is available!" = "新版本的 %@ 已经发布";
+"A new version of %@ is available!" = "%@新版本可用!";
 
-"A new version of %@ is ready to install!" = "新版本的 %@ 可以安装了";
+"A new version of %@ is ready to install!" = "%@新版本现在可以安装!";
 
-"An error occurred in retrieving update information. Please try again later." = "获取升级信息时出现错误，请稍后再试。";
+"An error occurred in retrieving update information. Please try again later." = "获取更新信息时发生错误.请稍后再试.";
 
-"An error occurred while downloading the update. Please try again later." = "下载过程中出现错误，请稍后再试。";
+"An error occurred while downloading the update. Please try again later." = "下载更新时发生错误.请稍后再试.";
 
-"An error occurred while extracting the archive. Please try again later." = "解压过程中出现错误，请稍后再试。";
+"An error occurred while extracting the archive. Please try again later." = "解压更新文件时发生错误.请稍后再试.";
 
-"An error occurred while installing the update. Please try again later." = "安装更新的过程中出现错误，请稍后再试。";
+"An error occurred while installing the update. Please try again later." = "安装更新时发生错误.请稍后再试.";
 
-"An error occurred while parsing the update feed." = "解析更新信息时出现错误，请稍后再试。";
+"An error occurred while parsing the update feed." = "解析更新服务器时发生错误.";
 
-"An error occurred while relaunching %1$@, but the new version will be available next time you run %1$@." = "重新启动 %1$@ 时出现错误，但在下次运行 %1$@ 时新版本将可使用。";
+"An error occurred while relaunching %1$@, but the new version will be available next time you run %1$@." = "重启%1$@时发生错误,但您下次运行%1$@时将可以正常使用更新后的版本.";
+
+"An important update to %@ is ready to install" = "%@的重要更新现在可以安装";
 
 /* the unit for bytes */
 "B" = "B";
@@ -36,13 +41,13 @@
 
 "Cancel Update" = "取消更新";
 
-"Checking for updates..." = "正在检查更新…";
+"Checking for updates..." = "检查更新…";
 
 /* Take care not to overflow the status window. */
-"Downloading update..." = "正在下载更新…";
+"Downloading update..." = "正在下载更新文件…";
 
 /* Take care not to overflow the status window. */
-"Extracting update..." = "正在解压更新…";
+"Extracting update..." = "正在解压更新文件…";
 
 /* the unit for gigabytes */
 "GB" = "GB";
@@ -55,24 +60,30 @@
 /* the unit for kilobytes */
 "KB" = "KB";
 
+/* Alternative name for "Install" button if we have a paid update or other update 	without a download but with a URL. */
+"Learn More..." = "了解更多…";
+
 /* the unit for megabytes */
 "MB" = "MB";
 
-"OK" = "好";
+/* OK button. */
+"OK" = "OK";
 
-"Ready to Install" = "可以开始安装了";
+/* Status message on progress window once download has finished. */
+"Ready to Install" = "准备安装";
 
-"Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu." = "您想让 %1$@ 在启动时自动检查更新么？您也可以在程序菜单 %1$@ 中手动检查。";
+/* Message that is optionally shown at startup to allow users to turn on/off update checks. */
+"Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu." = "是否需要%1$@自动检查更新?您可以随时从%1$@的菜单中手动检查更新.";
 
-"Update Error!" = "更新错误！";
+"The update is improperly signed." = "该更新文件的签名有误.";
 
-"Updating %@" = "正在更新 %@";
+"Update Error!" = "更新错误!";
 
-"You already have the newest version of %@." = "您已经在使用最新版本的 %@。";
+"Updating %@" = "正在更新%@";
 
-"You're up-to-date!" = "您使用的就是最新版！";
+/* 'Error' message when the user checks for updates but is already current or the feed doesn't contain any updates. (not necessarily shown in UI) */
+"You already have the newest version of %@." = "您使用的%@已经是最新版.";
 
-/* Alternative name for "Install" button if we have a paid update or other update
-	without a download but with a URL. */
+/* Status message shown when the user checks for updates but is already current or the feed doesn't contain any updates. */
+"You're up-to-date!" = "您当前已是最新版!";
 
-"Learn More..." = "下载更新包";
