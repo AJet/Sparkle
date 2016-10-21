@@ -7,10 +7,10 @@
 "%@ %@ is currently the newest version available." = "%@ %@ 已是当前可用的最新版本.";
 
 /* Description text for SUUpdateAlert when the update is downloadable. */
-"%@ %@ is now available--you have %@. Would you like to download it now?" = "%@ %@ 是当前可用的最新版本一您使用的是 %@. 是否现在为您下载最新版本?";
+"%@ %@ is now available--you have %@. Would you like to download it now?" = "%@ %@ 是当前可用的最新版本—您使用的是 %@. 是否现在为您下载最新版本?";
 
 /* Description text for SUUpdateAlert when the update informational with no download. */
-"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%@ %@ 是当前可用的最新版本一您使用的是 %@. 您是否要前往官网查看有关该更新的更多信息?";
+"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%@ %@ 是当前可用的最新版本—您使用的是 %@. 您是否要前往官网查看有关该更新的更多信息?";
 
 "%@ downloaded" = "已下载 %@";
 
