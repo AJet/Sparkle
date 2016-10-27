@@ -1,36 +1,36 @@
-﻿"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ 的下载已完成! 您是否要现在安装并重启 %1$@?";
+﻿"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ 的下载已完成！您是否要现在安装并重启 %1$@？";
 
-"%1$@ %2$@ has been downloaded and is ready to use! This is an important update; would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ 的下载已完成! 这是一次重要更新; 您是否要现在安装并重启 %1$@?";
+"%1$@ %2$@ has been downloaded and is ready to use! This is an important update; would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ 的下载已完成！这是一次重要更新；您是否要现在安装并重启 %1$@？";
 
-"%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "%1$@ 运行在只读宗卷如磁盘映像或光驱中, 无法更新. 移动 %1$@ 至您的 “应用” 文件夹, 重启后再尝试更新.";
+"%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "%1$@ 运行在只读宗卷如磁盘映像或光驱中，无法更新。移动 %1$@ 至您的 “应用” 文件夹，重启后再尝试更新。";
 
-"%@ %@ is currently the newest version available." = "%@ %@ 已是当前可用的最新版本.";
+"%@ %@ is currently the newest version available." = "%@ %@ 已是当前可用的最新版本。";
 
 /* Description text for SUUpdateAlert when the update is downloadable. */
-"%@ %@ is now available--you have %@. Would you like to download it now?" = "%@ %@ 是当前可用的最新版本—您使用的是 %@. 是否现在为您下载最新版本?";
+"%@ %@ is now available--you have %@. Would you like to download it now?" = "%@ %@ 是当前可用的最新版本—您使用的是 %@。是否现在为您下载最新版本？";
 
 /* Description text for SUUpdateAlert when the update informational with no download. */
-"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%@ %@ 是当前可用的最新版本—您使用的是 %@. 您是否要前往官网查看有关该更新的更多信息?";
+"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%@ %@ 是当前可用的最新版本—您使用的是 %@。您是否要前往官网查看有关该更新的更多信息？";
 
 "%@ downloaded" = "已下载 %@";
 
-"%@ of %@" = "已下载 %@, 全部 %@";
+"%@ of %@" = "已下载 %@，全部 %@";
 
-"A new version of %@ is available!" = "%@ 新版本可用!";
+"A new version of %@ is available!" = "%@ 新版本可用！";
 
-"A new version of %@ is ready to install!" = "%@ 新版本现在可以安装!";
+"A new version of %@ is ready to install!" = "%@ 新版本现在可以安装！";
 
-"An error occurred in retrieving update information. Please try again later." = "获取更新信息时发生错误. 请稍后再试.";
+"An error occurred in retrieving update information. Please try again later." = "获取更新信息时发生错误。请稍后再试。";
 
-"An error occurred while downloading the update. Please try again later." = "下载更新时发生错误. 请稍后再试.";
+"An error occurred while downloading the update. Please try again later." = "下载更新时发生错误。请稍后再试。";
 
-"An error occurred while extracting the archive. Please try again later." = "解压更新文件时发生错误. 请稍后再试.";
+"An error occurred while extracting the archive. Please try again later." = "解压更新文件时发生错误。请稍后再试。";
 
-"An error occurred while installing the update. Please try again later." = "安装更新时发生错误. 请稍后再试.";
+"An error occurred while installing the update. Please try again later." = "安装更新时发生错误。请稍后再试。";
 
-"An error occurred while parsing the update feed." = "解析更新服务器时发生错误.";
+"An error occurred while parsing the update feed." = "解析更新服务器时发生错误。";
 
-"An error occurred while relaunching %1$@, but the new version will be available next time you run %1$@." = "重启 %1$@ 时发生错误, 但您下次运行 %1$@ 时将可以正常使用更新后的版本.";
+"An error occurred while relaunching %1$@, but the new version will be available next time you run %1$@." = "重启 %1$@ 时发生错误，但您下次运行 %1$@ 时将可以正常使用更新后的版本。";
 
 "An important update to %@ is ready to install" = "%@ 的重要更新现在可以安装";
 
@@ -73,17 +73,17 @@
 "Ready to Install" = "准备安装";
 
 /* Message that is optionally shown at startup to allow users to turn on/off update checks. */
-"Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu." = "是否需要 %1$@ 自动检查更新? 您可以随时从 %1$@ 的菜单中手动检查更新.";
+"Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu." = "是否需要 %1$@ 自动检查更新？您可以随时从 %1$@ 的菜单中手动检查更新。";
 
-"The update is improperly signed." = "该更新文件的签名有误.";
+"The update is improperly signed." = "该更新文件的签名有误。";
 
-"Update Error!" = "更新错误!";
+"Update Error!" = "更新错误！";
 
 "Updating %@" = "正在更新 %@";
 
 /* 'Error' message when the user checks for updates but is already current or the feed doesn't contain any updates. (not necessarily shown in UI) */
-"You already have the newest version of %@." = "您使用的 %@ 已经是最新版.";
+"You already have the newest version of %@." = "您使用的 %@ 已经是最新版。";
 
 /* Status message shown when the user checks for updates but is already current or the feed doesn't contain any updates. */
-"You're up-to-date!" = "您当前已是最新版!";
+"You're up-to-date!" = "您当前已是最新版！";
 

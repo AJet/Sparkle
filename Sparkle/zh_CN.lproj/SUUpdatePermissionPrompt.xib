@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
@@ -57,7 +57,7 @@ Gw
                     <textField verticalHuggingPriority="750" id="32">
                         <rect key="frame" x="104" y="136" width="316" height="17"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="是否自动检查更新?" id="178">
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="是否自动检查更新？" id="178">
                             <font key="font" metaFont="systemBold"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -144,9 +144,9 @@ Gw
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="183">
                         <font key="font" size="11" name=".PingFangSC-Regular"/>
-                        <string key="title">匿名系统配置信息用于帮助我们计划未来的开发工作. 如果您对此有任何疑问, 请联系我们.
+                        <string key="title">匿名系统配置信息用于帮助我们计划未来的开发工作。如果您对此有任何疑问，请联系我们。
 
-以下是要发送的信息:</string>
+以下是要发送的信息：</string>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
