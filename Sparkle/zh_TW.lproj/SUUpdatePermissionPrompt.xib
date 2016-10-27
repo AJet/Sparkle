@@ -142,7 +142,7 @@ Gw
                     <rect key="frame" x="1" y="128" width="358" height="70"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="183">
-                        <font key="font" size="11" name=".PingFangSC-Regular"/>
+                        <font key="font" size="11" metaFont="cellTitle"/>
                         <string key="title">匿名系統組態資訊用於説明我們計畫未來的開發工作。如果您對此有任何疑問，請聯繫我們。
 
 以下是要發送的資訊：</string>
