@@ -682,7 +682,7 @@
 		723B252C1CEAB3A600909873 /* bscommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bscommon.h; sourceTree = "<group>"; };
 		7268AC621AD634C200C3E0C1 /* SUBinaryDeltaCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUBinaryDeltaCreate.m; sourceTree = "<group>"; };
 		7268AC641AD634E400C3E0C1 /* SUBinaryDeltaCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUBinaryDeltaCreate.h; sourceTree = "<group>"; };
-		726B2B5D1C645FC900388755 /* UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		726B2B5D1C645FC900388755 /* UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UI Tests.xctest"; path = .xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		726F2CE31BC9C33D001971A4 /* SUOperatingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUOperatingSystem.h; sourceTree = "<group>"; };
 		726F2CE41BC9C33D001971A4 /* SUOperatingSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUOperatingSystem.m; sourceTree = "<group>"; };
 		7275F9BF1B5F1F2900B1D19E /* SUFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUFileManager.h; sourceTree = "<group>"; };
@@ -1460,7 +1460,7 @@
 			attributes = {
 				CLASSPREFIX = SU;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Sparkle Project";
 				TargetAttributes = {
 					612279D80DB5470200AB99EA = {
