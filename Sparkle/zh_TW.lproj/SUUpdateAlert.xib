@@ -164,7 +164,7 @@ DQ
                     <button verticalHuggingPriority="750" horizontalCompressionResistancePriority="998" misplaced="YES" id="23">
                         <rect key="frame" x="102" y="13" width="163" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <buttonCell key="cell" type="push" title="跳過該版本更新" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="172">
+                        <buttonCell key="cell" type="push" title="跳過此版本更新" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="172">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
