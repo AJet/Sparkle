@@ -77,7 +77,7 @@
 
 "The update is improperly signed." = "このアップデートのデジタル署名に問題があります";
 
-"Update Error!" = "アップデートエラー！";
+"Update Error!" = "アップデートエラー";
 
 "Updating %@" = "%@ をアップデートしています";
 
