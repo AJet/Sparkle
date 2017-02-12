@@ -4,17 +4,17 @@
 
 "%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "%1$@ нельзя обновлять, пока он запущен с диска, доступного только для чтения. Переместите %1$@ в папку Программы и перезапустите.";
 
-"%@ %@ is currently the newest version available." = "У вас уже установлена последняя версия %@ %@.";
+"%@ %@ is currently the newest version available." = "У вас уже установлена последняя версия %1$@ %2$@.";
 
 /* Description text for SUUpdateAlert when the update is downloadable. */
-"%@ %@ is now available--you have %@. Would you like to download it now?" = "Доступно обновление %@ до версии %@, у вас сейчас установлена версия %@. Скачать обновление?";
+"%@ %@ is now available--you have %@. Would you like to download it now?" = "Доступно обновление %1$@ до версии %2$@, у вас сейчас установлена версия %3$@. Скачать обновление?";
 
 /* Description text for SUUpdateAlert when the update informational with no download. */
-"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "Доступно обновление %@ до версии %@, у вас сейчас установлена версия %@. Узнать больше об этом обновлении в интернете?";
+"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "Доступно обновление %1$@ до версии %2$@, у вас сейчас установлена версия %3$@. Узнать больше об этом обновлении в интернете?";
 
 "%@ downloaded" = "загружено %@";
 
-"%@ of %@" = "%@ из %@";
+"%@ of %@" = "%1$@ из %2$@";
 
 "A new version of %@ is available!" = "Доступно обновление %@!";
 
