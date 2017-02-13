@@ -4,17 +4,17 @@
 
 "%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "%1$@ kann beim Starten von einem schreibgeschützten Volume wie einem Disk Image oder einem optischen Laufwerk nicht aktualisiert werden. Bitte verschieben Sie %1$@ in Ihren Programmordner, starten es von hier und versuchen es erneut.";
 
-"%@ %@ is currently the newest version available." = "%@ %@ ist die aktuellste Version.";
+"%@ %@ is currently the newest version available." = "%1$@ %2$@ ist die aktuellste Version.";
 
 /* Description text for SUUpdateAlert when the update is downloadable. */
-"%@ %@ is now available--you have %@. Would you like to download it now?" = "%@ %@ ist nun verfügbar — Sie haben %@. Möchten Sie die aktuelle Version jetzt laden?";
+"%@ %@ is now available--you have %@. Would you like to download it now?" = "%1$@ %2$@ ist nun verfügbar – Sie haben %3$@. Möchten Sie die aktuelle Version jetzt laden?";
 
 /* Description text for SUUpdateAlert when the update informational with no download. */
-"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%@ %@ ist nun verfügbar--Sie haben %@. Möchten Sie mehr über das Update im Web erfahren?";
+"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%1$@ %2$@ ist nun verfügbar – Sie haben %3$@. Möchten Sie mehr über das Update im Web erfahren?";
 
 "%@ downloaded" = "%@ geladen";
 
-"%@ of %@" = "%@ von %@";
+"%@ of %@" = "%1$@ von %2$@";
 
 "A new version of %@ is available!" = "Eine neue Version von %@ ist verfügbar!";
 
