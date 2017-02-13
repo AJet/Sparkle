@@ -7,10 +7,10 @@
 "%@ %@ is currently the newest version available." = "%1$@ %2$@ är för närvarande den senaste tillgängliga versionen.";
 
 /* Description text for SUUpdateAlert when the update is downloadable. */
-"%@ %@ is now available--you have %@. Would you like to download it now?" = "%1$@ %2$@ finns nu tillgänglig—du har %3$@. Vill du hämta den nu?";
+"%@ %@ is now available--you have %@. Would you like to download it now?" = "%1$@ %2$@ finns nu tillgänglig – du har %3$@. Vill du hämta den nu?";
 
 /* Description text for SUUpdateAlert when the update informational with no download. */
-"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%@ %@ finns nu tillgänglig--du har %@. Vill du läsa mer om den här uppdateringen på nätet?";
+"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%1$@ %2$@ finns nu tillgänglig – du har %3$@. Vill du läsa mer om den här uppdateringen på nätet?";
 
 "%@ downloaded" = "%@ hämtat";
 
@@ -61,7 +61,7 @@
 "KB" = "KB";
 
 /* Alternative name for "Install" button if we have a paid update or other update 	without a download but with a URL. */
-"Learn More..." = "Läs mer…";
+"Learn More..." = "Läs mer";
 
 /* the unit for megabytes */
 "MB" = "MB";
