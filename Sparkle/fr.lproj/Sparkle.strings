@@ -1,20 +1,20 @@
-﻿"%1$@ %2$@ has been downloaded and is ready to use! This is an important update; would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ a été téléchargé et est prêt à être utilisé ! Voulez-vous l'installer et relancer %1$@ maintenant ?";
+﻿"%1$@ %2$@ has been downloaded and is ready to use! This is an important update; would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ a été téléchargé et est prêt à être utilisé ! Voulez-vous l’installer et relancer %1$@ maintenant ?";
 
-"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ a été téléchargé. Voulez-vous l'installer et relancer %1$@ maintenant ?";
+"%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ a été téléchargé. Voulez-vous l’installer et relancer %1$@ maintenant ?";
 
 "%1$@ can't be updated when it's running from a read-only volume like a disk image or an optical drive. Move %1$@ to your Applications folder, relaunch it from there, and try again." = "%1$@ ne peut être mis à jour sur un volume en lecture seule. Déplacez %1$@ dans le dossier Applications, relancez-le, et recommencez.";
 
-"%@ %@ is currently the newest version available." = "%@ %@ est la version la plus récente disponible.";
+"%@ %@ is currently the newest version available." = "%1$@ %2$@ est la version la plus récente disponible.";
 
 /* Description text for SUUpdateAlert when the update is downloadable. */
-"%@ %@ is now available--you have %@. Would you like to download it now?" = "%@ %@ est disponible ; vous utilisez la version %@. Voulez-vous le télécharger maintenant ?";
+"%@ %@ is now available--you have %@. Would you like to download it now?" = "%1$@ %2$@ est disponible ; vous utilisez la version %3$@. Voulez-vous le télécharger maintenant ?";
 
 /* Description text for SUUpdateAlert when the update informational with no download. */
-"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%@ %@ est disponible ; vous utilisez la version %@. Voulez-vous en savoir plus sur cette mise à jour sur le Web ?";
+"%@ %@ is now available--you have %@. Would you like to learn more about this update on the web?" = "%1$@ %2$@ est disponible ; vous utilisez la version %3$@. Voulez-vous en savoir plus sur cette mise à jour sur le Web ?";
 
-"%@ downloaded" = "%@ téléchargé (s)";
+"%@ downloaded" = "%@ téléchargés";
 
-"%@ of %@" = "%@ sur %@";
+"%@ of %@" = "%1$@ sur %2$@";
 
 "A new version of %@ is available!" = "Une nouvelle version de %@ est disponible !";
 
@@ -24,7 +24,7 @@
 
 "An error occurred while downloading the update. Please try again later." = "Une erreur est survenue en téléchargeant la mise à jour. Veuillez réessayer plus tard.";
 
-"An error occurred while extracting the archive. Please try again later." = "Une erreur est survenue en extrayant les données de l'archive. Veuillez réessayer plus tard.";
+"An error occurred while extracting the archive. Please try again later." = "Une erreur est survenue en extrayant les données de l’archive. Veuillez réessayer plus tard.";
 
 "An error occurred while installing the update. Please try again later." = "Une erreur est survenue en installant la mise à jour. Veuillez réessayer plus tard.";
 
@@ -61,7 +61,7 @@
 "KB" = "Ko";
 
 /* Alternative name for "Install" button if we have a paid update or other update 	without a download but with a URL. */
-"Learn More..." = "En savoir plus…";
+"Learn More..." = "En savoir plus";
 
 /* the unit for megabytes */
 "MB" = "Mo";
@@ -70,7 +70,7 @@
 "OK" = "OK";
 
 /* Status message on progress window once download has finished. */
-"Ready to Install" = "Prêt pour l'installation";
+"Ready to Install" = "Prêt pour l’installation";
 
 /* Message that is optionally shown at startup to allow users to turn on/off update checks. */
 "Should %1$@ automatically check for updates? You can always check for updates manually from the %1$@ menu." = "%1$@ doit-il rechercher automatiquement les mises à jour ? La mise à jour est toujours possible manuellement depuis le menu de %1$@.";
