@@ -61,7 +61,7 @@
 "KB" = "KB";
 
 /* Alternative name for "Install" button if we have a paid update or other update 	without a download but with a URL. */
-"Learn More..." = "Dowiedz się więcej…";
+"Learn More..." = "Dowiedz się więcej";
 
 /* the unit for megabytes */
 "MB" = "MB";
