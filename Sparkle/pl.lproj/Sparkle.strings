@@ -1,4 +1,4 @@
-﻿"%1$@ %2$@ has been downloaded and is ready to use! This is an important update; would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ został pobrany i jest gotowy do użycia! To jest ważna aktualizacja; czy chciałbyś ją zainstalować i uruchomić %1$@ ponownie teraz?";
+"%1$@ %2$@ has been downloaded and is ready to use! This is an important update; would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ został pobrany i jest gotowy do użycia! To jest ważna aktualizacja; czy chciałbyś ją zainstalować i uruchomić %1$@ ponownie teraz?";
 
 "%1$@ %2$@ has been downloaded and is ready to use! Would you like to install it and relaunch %1$@ now?" = "%1$@ %2$@ został pobrany i jest gotowy do użycia! Czy chciałbyś teraz zainstalować i ponownie uruchomić %1$@?";
 
@@ -61,7 +61,7 @@
 "KB" = "KB";
 
 /* Alternative name for "Install" button if we have a paid update or other update 	without a download but with a URL. */
-"Learn More..." = "Dowiedz się więcej";
+"Learn More..." = "Dowiedz się więcej";
 
 /* the unit for megabytes */
 "MB" = "MB";
